@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="static/js/bootstrap.min.js"></script>
+  <link href="static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="http://code.jquery.com/jquery.js"></script>
+<script src="static/js/bootstrap.min.js"></script>
+</head>
+
+
+{% block body %}
+
+
+
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">TPUnav</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+<div class="container">
+
+<div class="container">
+<div class="row">
+  <div class="col-md-3 col-md-offset-0">
+    <form method=POST action="{{ url_for('index') }}">
+<div class="form-group row">
+  <div class="col-xs-6">
+  <label for="sel1">Начальная аудитория:</label>
+  <select class="form-control" id="sel1" name="first">
+    <option>001</option>
+    <option>002</option>
+    <option>003</option>
+    <option>004</option>
+    <option>005</option>
+    <option>006</option>
+    <option>007</option>
+    <option>008</option>
+    <option>009</option>
+    <option>010</option>
+    <option>011</option>
+    <option>012</option>
+    <option>013</option>
+    <option>014</option>
+    <option>015</option>
+    <option>016</option>
+    <option>017</option>
+    <option>018</option>
+    <option>019</option>
+    <option>020</option>
+    <option>021</option>
+    <option>022</option>
+    <option>023</option>
+    <option>024</option>
+    <option>025</option>
+    <option>026</option>
+    <option>027</option>
+    <option>028</option>
+    <option>029</option>
+    <option>030</option>
+    <option>031</option>
+    <option>032</option>
+    <option>033</option>
+    <option>034</option>
+    <option>035</option>
+    <option>036</option>
+    <option>037</option>
+    <option>038</option>
+    <option>039</option>
+    <option>040</option>
+    <option>041</option>
+    <option>042</option>
+    <option>043</option>
+    <option>044</option>
+    <option>101</option>
+    <option>102</option>
+    <option>103</option>
+    <option>104</option>
+    <option>105</option>
+    <option>106</option>
+    <option>107</option>
+    <option>108</option>
+    <option>109</option>
+    <option>110</option>
+    <option>111</option>
+    <option>112</option>
+    <option>113</option>
+    <option>114</option>
+    <option>115</option>
+    <option>116</option>
+    <option>117</option>
+    <option>118</option>
+    <option>119</option>
+    <option>120</option>
+    <option>121</option>
+    <option>122</option>
+    <option>123</option>
+    <option>124</option>
+    <option>125</option>
+    <option>126</option>
+    <option>127</option>
+    <option>128</option>
+    <option>129</option>
+    <option>130</option>
+    <option>131</option>
+    <option>132</option>
+    <option>133</option>
+    <option>134</option>
+    <option>135</option>
+    <option>136</option>
+    <option>137</option>
+    <option>138</option>
+    <option>139</option>
+    <option>140</option>
+    <option>141</option>
+    <option>142</option>
+    <option>143</option>
+    <option>144</option>
+    <option>145</option>
+    <option>146</option>
+    <option>147</option>
+    <option>148</option>
+    <option>149</option>
+    <option>150</option>
+    <option>151</option>
+    <option>152</option>
+    <option>153</option>
+    <option>154</option>
+    <option>155</option>
+    <option>156</option>
+    <option>157</option>
+    <option>158</option>
+    <option>159</option>
+    <option>160</option>
+    <option>161</option>
+    <option>162</option>
+    <option>163</option>
+    <option>164</option>
+    <option>165</option>
+    <option>166</option>
+    <option>167</option>
+    <option>168</option>
+    <option>169</option>
+    <option>170</option>
+    <option>171</option>
+    <option>172</option>
+    <option>173</option>
+    <option>174</option>
+    <option>175</option>
+    <option>176</option>
+    <option>177</option>
+    <option>178</option>
+    <option>179</option>
+    <option>201</option>
+    <option>202</option>
+    <option>203</option>
+    <option>204</option>
+    <option>205</option>
+    <option>206</option>
+    <option>207</option>
+    <option>208</option>
+    <option>209</option>
+    <option>210</option>
+    <option>211</option>
+    <option>212</option>
+    <option>213</option>
+    <option>214</option>
+    <option>215</option>
+    <option>216</option>
+    <option>217</option>
+    <option>218</option>
+    <option>219</option>
+    <option>220</option>
+    <option>221</option>
+    <option>222</option>
+    <option>223</option>
+    <option>224</option>
+    <option>225</option>
+    <option>226</option>
+    <option>227</option>
+    <option>228</option>
+    <option>229</option>
+    <option>230</option>
+    <option>231</option>
+    <option>232</option>
+    <option>233</option>
+    <option>234</option>
+    <option>235</option>
+    <option>236</option>
+    <option>237</option>
+    <option>238</option>
+    <option>239</option>
+    <option>240</option>
+    <option>241</option>
+    <option>242</option>
+    <option>243</option>
+    <option>244</option>
+    <option>245</option>
+    <option>301</option>
+    <option>302</option>
+    <option>303</option>
+    <option>304</option>
+    <option>305</option>
+    <option>306</option>
+    <option>307</option>
+    <option>308</option>
+    <option>309</option>
+    <option>310</option>
+    <option>311</option>
+    <option>312</option>
+    <option>313</option>
+    <option>314</option>
+    <option>315</option>
+    <option>316</option>
+    <option>317</option>
+    <option>318</option>
+    <option>319</option>
+    <option>320</option>
+    <option>321</option>
+    <option>322</option>
+    <option>323</option>
+    <option>324</option>
+    <option>325</option>
+    <option>326</option>
+    <option>327</option>
+    <option>328</option>
+    <option>329</option>
+    <option>330</option>
+    <option>331</option>
+    <option>332</option>
+    <option>333</option>
+    <option>334</option>
+    <option>335</option>
+    <option>336</option>
+    <option>337</option>
+    <option>338</option>
+    <option>339</option>
+    <option>340</option>
+    <option>341</option>
+    <option>342</option>
+    <option>343</option>
+    <option>344</option>
+    <option>345</option>
+    <option>346</option>
+    <option>347</option>
+    <option>348</option>
+    <option>349</option>
+    <option>350</option>
+    <option>351</option>
+    <option>352</option>
+    <option>353</option>
+    <option>354</option>
+    <option>355</option>
+    <option>356</option>
+  </select>
+  </div>
+  <div class="col-xs-6">
+  <label for="sel2">Конечная аудитория:</label>
+  <select class="form-control" id="sel2" name="last">
+    <option>001</option>
+    <option>002</option>
+    <option>003</option>
+    <option>004</option>
+    <option>005</option>
+    <option>006</option>
+    <option>007</option>
+    <option>008</option>
+    <option>009</option>
+    <option>010</option>
+    <option>011</option>
+    <option>012</option>
+    <option>013</option>
+    <option>014</option>
+    <option>015</option>
+    <option>016</option>
+    <option>017</option>
+    <option>018</option>
+    <option>019</option>
+    <option>020</option>
+    <option>021</option>
+    <option>022</option>
+    <option>023</option>
+    <option>024</option>
+    <option>025</option>
+    <option>026</option>
+    <option>027</option>
+    <option>028</option>
+    <option>029</option>
+    <option>030</option>
+    <option>031</option>
+    <option>032</option>
+    <option>033</option>
+    <option>034</option>
+    <option>035</option>
+    <option>036</option>
+    <option>037</option>
+    <option>038</option>
+    <option>039</option>
+    <option>040</option>
+    <option>041</option>
+    <option>042</option>
+    <option>043</option>
+    <option>044</option>
+    <option>101</option>
+    <option>102</option>
+    <option>103</option>
+    <option>104</option>
+    <option>105</option>
+    <option>106</option>
+    <option>107</option>
+    <option>108</option>
+    <option>109</option>
+    <option>110</option>
+    <option>111</option>
+    <option>112</option>
+    <option>113</option>
+    <option>114</option>
+    <option>115</option>
+    <option>116</option>
+    <option>117</option>
+    <option>118</option>
+    <option>119</option>
+    <option>120</option>
+    <option>121</option>
+    <option>122</option>
+    <option>123</option>
+    <option>124</option>
+    <option>125</option>
+    <option>126</option>
+    <option>127</option>
+    <option>128</option>
+    <option>129</option>
+    <option>130</option>
+    <option>131</option>
+    <option>132</option>
+    <option>133</option>
+    <option>134</option>
+    <option>135</option>
+    <option>136</option>
+    <option>137</option>
+    <option>138</option>
+    <option>139</option>
+    <option>140</option>
+    <option>141</option>
+    <option>142</option>
+    <option>143</option>
+    <option>144</option>
+    <option>145</option>
+    <option>146</option>
+    <option>147</option>
+    <option>148</option>
+    <option>149</option>
+    <option>150</option>
+    <option>151</option>
+    <option>152</option>
+    <option>153</option>
+    <option>154</option>
+    <option>155</option>
+    <option>156</option>
+    <option>157</option>
+    <option>158</option>
+    <option>159</option>
+    <option>160</option>
+    <option>161</option>
+    <option>162</option>
+    <option>163</option>
+    <option>164</option>
+    <option>165</option>
+    <option>166</option>
+    <option>167</option>
+    <option>168</option>
+    <option>169</option>
+    <option>170</option>
+    <option>171</option>
+    <option>172</option>
+    <option>173</option>
+    <option>174</option>
+    <option>175</option>
+    <option>176</option>
+    <option>177</option>
+    <option>178</option>
+    <option>179</option>
+    <option>201</option>
+    <option>202</option>
+    <option>203</option>
+    <option>204</option>
+    <option>205</option>
+    <option>206</option>
+    <option>207</option>
+    <option>208</option>
+    <option>209</option>
+    <option>210</option>
+    <option>211</option>
+    <option>212</option>
+    <option>213</option>
+    <option>214</option>
+    <option>215</option>
+    <option>216</option>
+    <option>217</option>
+    <option>218</option>
+    <option>219</option>
+    <option>220</option>
+    <option>221</option>
+    <option>222</option>
+    <option>223</option>
+    <option>224</option>
+    <option>225</option>
+    <option>226</option>
+    <option>227</option>
+    <option>228</option>
+    <option>229</option>
+    <option>230</option>
+    <option>231</option>
+    <option>232</option>
+    <option>233</option>
+    <option>234</option>
+    <option>235</option>
+    <option>236</option>
+    <option>237</option>
+    <option>238</option>
+    <option>239</option>
+    <option>240</option>
+    <option>241</option>
+    <option>242</option>
+    <option>243</option>
+    <option>244</option>
+    <option>245</option>
+    <option>301</option>
+    <option>302</option>
+    <option>303</option>
+    <option>304</option>
+    <option>305</option>
+    <option>306</option>
+    <option>307</option>
+    <option>308</option>
+    <option>309</option>
+    <option>310</option>
+    <option>311</option>
+    <option>312</option>
+    <option>313</option>
+    <option>314</option>
+    <option>315</option>
+    <option>316</option>
+    <option>317</option>
+    <option>318</option>
+    <option>319</option>
+    <option>320</option>
+    <option>321</option>
+    <option>322</option>
+    <option>323</option>
+    <option>324</option>
+    <option>325</option>
+    <option>326</option>
+    <option>327</option>
+    <option>328</option>
+    <option>329</option>
+    <option>330</option>
+    <option>331</option>
+    <option>332</option>
+    <option>333</option>
+    <option>334</option>
+    <option>335</option>
+    <option>336</option>
+    <option>337</option>
+    <option>338</option>
+    <option>339</option>
+    <option>340</option>
+    <option>341</option>
+    <option>342</option>
+    <option>343</option>
+    <option>344</option>
+    <option>345</option>
+    <option>346</option>
+    <option>347</option>
+    <option>348</option>
+    <option>349</option>
+    <option>350</option>
+    <option>351</option>
+    <option>352</option>
+    <option>353</option>
+    <option>354</option>
+    <option>355</option>
+    <option>356</option>
+  </select>
+  </div>
+</div>
+
+
+                <button type="submit" class="btn btn-primary btn-block">Искать</button>
+            </form>
+  </div>
+</div>
+</div>
+
+
+{% if button_pressed %}
+<div class="container">
+  <h2>Этаж № </h2>
+  {% if has_level_0  %}
+  <button type="button" class="btn btn-info" onclick="myFunction0()">0</button>
+  {% endif %}
+  {% if has_level_1  %}
+  <button type="button" class="btn btn-info" onclick="myFunction1()">1</button>
+  {% endif %}
+  {% if has_level_2  %}
+  <button type="button" class="btn btn-info" onclick="myFunction2()">2</button>
+  {% endif %}
+  {% if has_level_3  %}
+  <button type="button" class="btn btn-info" onclick="myFunction3()">3</button>
+  {% endif %}
+</div>
+</div>
+{% endif %}
+
+{% if not button_pressed %}
+<object type="image/svg+xml" width="70%" height="70%" data="static/18_0.svg">
+  Your browser does not support SVG
+</object>
+{% endif %}
+
+
+{% if button_pressed %}
+{% if has_level_0  %}
+<div class="container">
+<object type="image/svg+xml" width="70%" height="70%" data="{{ file_name_0 }}" id="level0">
+  Your browser does not support SVG
+</object>
+</div>
+{% endif %}
+{% if has_level_1  %}
+<div class="container">
+<object type="image/svg+xml" width="70%" height="70%" data="{{ file_name_1 }}" id="level1">
+  Your browser does not support SVG
+</object>
+</div>
+{% endif %}
+{% if has_level_2  %}
+<div class="container">
+<object type="image/svg+xml" width="70%" height="70%" data="{{ file_name_2 }}" id="level2">
+  Your browser does not support SVG
+</object>
+  <p>  </p>
+    <p>  </p>
+</div>
+{% endif %}
+{% if has_level_3  %}
+<div class="container">
+<object type="image/svg+xml" width="70%" height="70%" data="{{ file_name_3 }}" id="level3">
+  Your browser does not support SVG
+</object>
+</div>
+{% endif %}
+{% endif %}
+
+
+{% if message %}
+<p>   Path is not availible</p>
+{% endif %}
+
+
+{% if starting_level_is_0  %}
+<script type="text/javascript">
+var x0 = document.getElementById('level0');
+var x1 = document.getElementById('level1');
+var x2 = document.getElementById('level2');
+var x3 = document.getElementById('level3');
+x0.style.display = 'block';
+x1.style.display = 'none';
+x2.style.display = 'none';
+x3.style.display = 'none';
+</script>
+{% elif starting_level_is_1  %}
+<script type="text/javascript">
+var x0 = document.getElementById('level0');
+var x1 = document.getElementById('level1');
+var x2 = document.getElementById('level2');
+var x3 = document.getElementById('level3');
+x0.style.display = 'none';
+x1.style.display = 'block';
+x2.style.display = 'none';
+x3.style.display = 'none';
+</script>
+{% elif starting_level_is_2  %}
+<script type="text/javascript">
+var x0 = document.getElementById('level0');
+var x1 = document.getElementById('level1');
+var x2 = document.getElementById('level2');
+var x3 = document.getElementById('level3');
+x0.style.display = 'none';
+x1.style.display = 'none';
+x2.style.display = 'block';
+x3.style.display = 'none';
+</script>
+{% elif starting_level_is_3  %}
+<script type="text/javascript">
+var x0 = document.getElementById('level0');
+var x1 = document.getElementById('level1');
+var x2 = document.getElementById('level2');
+var x3 = document.getElementById('level3');
+x0.style.display = 'none';
+x1.style.display = 'none';
+x2.style.display = 'none';
+x3.style.display = 'block';
+</script>
+{% endif %}
+
+<script>
+function myFunction0() {
+    var x0 = document.getElementById('level0');
+    var x1 = document.getElementById('level1');
+    var x2 = document.getElementById('level2');
+    var x3 = document.getElementById('level3');
+    x0.style.display = 'block';
+    x1.style.display = 'none';
+    x2.style.display = 'none';
+    x3.style.display = 'none';
+}
+</script>
+
+<script>
+function myFunction1() {
+    var x0 = document.getElementById('level0');
+    var x1 = document.getElementById('level1');
+    var x2 = document.getElementById('level2');
+    var x3 = document.getElementById('level3');
+    x0.style.display = 'none';
+    x1.style.display = 'block';
+    x2.style.display = 'none';
+    x3.style.display = 'none';
+}
+</script>
+
+<script>
+function myFunction2() {
+    var x0 = document.getElementById('level0');
+    var x1 = document.getElementById('level1');
+    var x2 = document.getElementById('level2');
+    var x3 = document.getElementById('level3');
+    x0.style.display = 'none';
+    x1.style.display = 'none';
+    x2.style.display = 'block';
+    x3.style.display = 'none';
+    }
+</script>
+
+<script>
+function myFunction3() {
+    var x0 = document.getElementById('level0');
+    var x1 = document.getElementById('level1');
+    var x2 = document.getElementById('level2');
+    var x3 = document.getElementById('level3');
+    x0.style.display = 'none';
+    x1.style.display = 'none';
+    x2.style.display = 'none';
+    x3.style.display = 'block';
+}
+</script>
+
+{% endblock %}
+</html>
