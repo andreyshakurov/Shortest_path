@@ -99,13 +99,7 @@ def home():
 
 @app.route('/', methods=['GET','POST'])
 def index():
-    button_pressed = False
-    has_level_0 = False
-    has_level_1 = False
-    has_level_2 = False
-    has_level_3 = False
-    starting_level_is_0 = False
-    starting_level_is_1 = False
+
     starting_level_is_2 = False
     starting_level_is_3 = False
 
